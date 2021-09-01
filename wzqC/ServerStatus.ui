@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ServerStatus</class>
+ <widget class="QWidget" name="ServerStatus">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>421</width>
+    <height>383</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>大厅列表</string>
+  </property>
+  <widget class="QTableWidget" name="clientStatus_client_TBW">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>381</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>host</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>guest</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>房间状态</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="create_client_BTN">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>330</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>create</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quit_client_BTN">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>330</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>quit</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
